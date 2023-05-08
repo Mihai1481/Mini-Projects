@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/008/266/680/original/abstract-luxury-line-background-for-presentation-poster-website-etc-free-vector.jpg);
+  display: 100%;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #303654;
+}
+
+h1 {
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  border: 1px solid #000000;
+  background-color: #c2440a;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+input[type="file"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  height: 40px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #c2440a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #662304;
+}
+
+fieldset{
+  border: none;
+}
