@@ -1,0 +1,113 @@
+html {
+    cursor: url(https://www.flaticon.com/free-icon/magic-wand_3336681?term=wand&page=1&position=12&origin=search&related_id=3336681);
+
+}
+
+select#lemn {
+    font-family: "Harry P", cursive;
+}
+
+select#miez {
+    font-family: "Harry P", cursive;
+}
+
+
+body {
+    background-image: url(https://images8.alphacoders.com/110/thumb-1920-1102284.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Harry P', cursive;
+    display: 100%;
+}
+
+.wrapper {
+    background-color: RGB(191, 165, 138);
+    position: relative;
+    width: 625px;
+    height: 600px;
+    margin: 0 auto;
+    opacity: 80%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    font-size: 22px;
+}
+
+.label {
+    display: inline-block;
+    margin-left: 200px;
+    font-family: 'Harry P', cursive;
+}
+
+.caseta {
+    margin: 0 auto;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Harry P', cursive;
+
+}
+
+/* adăugare stil pentru elementele <input> */
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    font-family: 'Harry P', cursive;
+}
+
+/* stil pentru butonul de submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: 'Harry P', cursive;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.breath {
+    text-align: center;
+    font-size: 48px;
+    animation: breath 2s ease-in-out infinite;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+@keyframes breath {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+input[type="radio"] {
+    font-family: "Harry P", cursive;
+}
+
+textarea {
+    font-family: "Harry P", sans-serif;
+    font-size: 16px;
+}
